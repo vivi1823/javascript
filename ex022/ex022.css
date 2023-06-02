@@ -1,0 +1,64 @@
+body {
+    background: rgb(3,31,244);
+    background: linear-gradient(90deg, rgba(3,31,244,1) 16%, rgba(152,25,190,1) 49%, rgba(223,9,133,1) 89%);
+}
+
+h1 { 
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+section {
+    background-color: white;
+    width: 600px;
+    margin: 0% auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(51, 51, 55, 0.666);
+    text-align: center;
+    padding: 20px;
+  
+}
+
+input {
+    margin-top: 15px;
+}
+
+button {
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(177, 172, 172);
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.h1-resul {
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+   width: 150px;
+   height: 200px;
+   margin-left: 20px;
+}
+
+.filmes {
+    display: flex;
+    flex-wrap: wrap;
+
+}

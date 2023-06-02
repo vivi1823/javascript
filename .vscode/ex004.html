@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 004</title>
+<style>
+    
+body {
+    background-color: rgb(197, 221, 224);
+}
+
+button {
+    padding: 20px;
+}
+</style>
+
+</head>
+<body>
+
+      <h1>Registro de Visitas</h1>
+      <button onclick="BotaoNome()">Cadastrar nova Pessoa</p></button>
+      <p>Pessoas que passaram por aqui...</p>
+      <p id="p-nome"></p>
+</body>
+<script>
+      function BotaoNome() {
+       var nome = prompt("Nome da nova Pessoa:")
+       document.getElementById("p-nome").innerHTML += `<br> &#x1F596 Acabei de cadastrar <strong>${nome}</strong> no sitesma`
+       
+    }
+</script>
+
+</html>

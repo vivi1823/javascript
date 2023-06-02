@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste stargeek/cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <script defer src="cadastro.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de usuário</h1>
+    </header>
+    <section>
+        <table>
+            <tr>
+                <td>Nome:</td>
+                <td><input type="text" id="nome"placeholder="Digite o seu nome "></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" id="email"placeholder="Digite seu email"></td>
+            </tr>
+            <tr>
+                <td>Senha:</td>
+                <td><input type="password" id="senha"placeholder="Digite a senha"></td>
+            </tr>
+            <tr>
+                <td>Senha</td>
+                <td><input type="password" id="confirmarSenha"placeholder="Confirme a senha"></td>
+            </tr>
+        </table>
+        <button onclick="botaoCadastro()"> Cadastrar Usuário</button>
+        <div id="escolhido" class="filmes"></div>
+        <h1 class="h1-resul">Lista de Usuários Cadastrados</h1>
+        <div id="resultado" class="usuarios"></div>
+    </section>
+
+    
+</body>
+</html>
